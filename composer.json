@@ -19,8 +19,15 @@
             "email": "accounts@sentry.io"
         }
     ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@github.com:Wirone/sentry-php.git",
+            "info": "In order to get PHP8 support"
+        }
+    ],
     "require": {
-        "sentry/sentry": "^2.5",
+        "sentry/sentry": "dev-2.x-php8",
         "http-interop/http-factory-guzzle": "^1.0",
         "symfony/http-client": "^4.3|^5.0"
     },
